@@ -1,0 +1,5 @@
+<resources>
+    <string name="fragment_app_name">fragment</string>
+    <string name="yidont_library_permission">permission.yidont.library.activity</string>
+    <string name="yidont_app_permission">permission.yidont.app.activity</string>
+</resources>

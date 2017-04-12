@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="perms_settings">设置</string>
+    <string name="perms_cancel">取消</string>
+    <string name="perms_title_settings">提示</string>
+    <string name="perms_ask_again_content">请赋予相关权限，以避免不必要的问题发生</string>
+    <string name="perms_ask_settings_content">测试测试测试</string>
+
+</resources>

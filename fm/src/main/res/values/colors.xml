@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="themecolors">#0085cf</color>
+    <color name="colorPrimary">@color/themecolors</color>
+    <color name="colorPrimaryDark">@color/themecolors</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_white">#ffffff</color>
+
+
+    <color name="web_white">#ffffff</color>
+    <color name="web_theme_press">@color/themecolors</color>
+    <color name="web_theme">@color/themecolors</color>
+
+    <!--Window的背景色-->
+    <color name="windowBackground">#ffffff</color>
+
+    <!--横线的背景色-->
+    <color name="colorline">#ccc</color>
+    <!--默认灰色背景-->
+    <color name="gray">#f0f0f0</color>
+    <!--主要的文字颜色，一般TextView的文字都是这个颜色-->
+    <color name="txtPrimary">#cc333333</color>
+    <!--辅助的文字颜色，一般比textColorPrimary的颜色弱一点，用于一些弱化的表示-->
+    <color name="txtSub">#cc999999</color>
+    <color name="color_while">#ffffff</color>
+
+
+
+
+
+
+    <color name="theme">#0285cf</color>
+    <color name="white">#fff</color>
+    <color name="default_line">#cccccc</color>
+    <color name="text_light">#a9a9a9</color>
+    <color name="text_orange">#ff6600</color>
+    <color name="default_line_bg">#f0f0f0</color>
+    <color name="text_normal">#333333</color>
+    <color name="default_blue">#0285CF</color>
+
+
+</resources>

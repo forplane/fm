@@ -18,7 +18,8 @@ import utils.ToolBarStatusUtils;
 import view.HeadToolBar;
 
 /**
- * Created by jon on 2016/10/26.<br/>
+ * Created by jon on 2016/10/26.
+ *
  */
 
 public abstract class InHeadUIF extends UniversalSwipeBackFragment implements AcceptSomething {

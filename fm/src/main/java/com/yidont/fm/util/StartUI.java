@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
 /**
- * Created by jp on 2016/10/28.</br>
+ * Created by jp on 2016/10/28.
+ *
  */
 
 public class StartUI {
@@ -17,6 +18,7 @@ public class StartUI {
      * 获取一个key的fragment对象
      * @param key    fragment的类路径
      * @param bundle 所携带的Bundle数据
+     * @return Fragment
      */
     public static Fragment newInstanceUIF(String key, Bundle bundle) {
         Fragment fragment = null;

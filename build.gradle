@@ -15,11 +15,15 @@ buildscript {
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
     }
 }
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream()) // local.properties 有 sdk 的绝对位置
 
 allprojects {
     repositories {
+        maven {
+            url properties.getProperty("sdk.dir")+"/extras/android/m2repository"
+        }
         jcenter()
-        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
 
     }
 }
@@ -34,3 +38,6 @@ ext {
     minSdkVersion =15
     targetSdkVersion=24
 }
+
+//http://www.jcodecraeer.com/a/anzhuokaifa/Android_Studio/2015/0515/2873.html
+//引用其他aar的情况

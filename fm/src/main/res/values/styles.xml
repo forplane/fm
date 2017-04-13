@@ -6,15 +6,11 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/theme</item>
     </style>
-    <!-- Base application theme. -->
-    <style name="fragment_AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-    </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="BizBaseTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <style name="FmBaseTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- 对应标题栏 toolbar（actionbar）颜色 -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <!-- 状态栏颜色 -->
@@ -26,14 +22,12 @@
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/txtPrimary</item>
         <item name="android:textColorPrimary">#fff</item>
-        <item name="toolbarNavigationButtonStyle">@style/BizToolbarNavigationButtonStyle</item>
+        <item name="toolbarNavigationButtonStyle">@style/FmToolbarNavigationButtonStyle</item>
         <item name="toolbarStyle">@style/clubToolbar</item>
         <item name="android:actionOverflowButtonStyle">@null</item>
-        <item name="android:navigationBarColor">#932323</item>
-
     </style>
 
-    <style name="BizBaseTheme.ThemeActivity" parent="BizBaseTheme">
+    <style name="FmBaseTheme.ThemeActivity" parent="FmBaseTheme">
         <!--主题色-->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -50,11 +44,11 @@
         <item name="android:windowIsTranslucent">true</item>
 
         <!-- 设置activity切换动画 -->
-        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <item name="android:windowAnimationStyle">@style/FmactivityAnimation</item>
     </style>
 
 
-    <style name="BizToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+    <style name="FmToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
         <item name="android:minWidth">0dp</item>
         <item name="android:scaleType">centerInside</item>
         <item name="contentInsetStart">0dp</item>
@@ -64,7 +58,7 @@
 
 
     <!-- animation 样式 -->
-    <style name="activityAnimation" parent="@android:style/Animation">
+    <style name="FmactivityAnimation" parent="@android:style/Animation">
 
         <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
         <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>

@@ -33,7 +33,8 @@ import utils.ToolBarStatusUtils;
 
 
 /**
- * Created by john on 16-7-5.<br/>
+ * Created by john on 16-7-5.
+ *
  */
 public class SingleFragmentUIA extends UniversalSwipeBackActivity implements HanderSomething, IHolderAccept {
 

@@ -20,6 +20,7 @@ import me.yokeyword.fragmentation.SupportFragment;
 
 /**
  * Created by Voctex on 2016/11/11.
+ * <p>
  * 普通片段，无侧滑效果，有动态权限功能
  */
 public abstract class UniVersalFragment1 extends SupportFragment implements

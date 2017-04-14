@@ -13,6 +13,8 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
 
+import com.yidont.fm.R;
+
 /**
  * Dialog to prompt the user to go to the app's settings screen and enable permissions. If the
  * user clicks 'OK' on the dialog, they are sent to the settings screen. The result is returned
@@ -37,7 +39,6 @@ public class AppSettingsDialog {
 
         // Create empty builder
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(context);
-
         // Set rationale
         dialogBuilder.setMessage(rationale);
 
@@ -74,6 +75,7 @@ public class AppSettingsDialog {
 
         // Build dialog
         mAlertDialog = dialogBuilder.create();
+        mAlertDialog.setInverseBackgroundForced(true);
     }
 
     @TargetApi(11)

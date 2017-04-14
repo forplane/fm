@@ -24,6 +24,9 @@ import view.HeadToolBar;
 
 public abstract class InHeadUIF extends UniversalSwipeBackFragment implements AcceptSomething {
 
+    /**
+     * 如果想要全屏显示，跳转bundler的时候，携带这个key为true即可，默认为false
+     */
     public static final String TOPKEY = "topkey";
 
     private ViewGroup parentView;//最外层的view，包含头部

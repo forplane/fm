@@ -5,7 +5,7 @@ apply plugin: 'com.jfrog.bintray'
 //-------------------------上传到jcenter-----------------------
 
 
-version = "1.0.2"
+version = "1.0.3"
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion

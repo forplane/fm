@@ -19,9 +19,9 @@
     <!--默认灰色背景-->
     <color name="gray">#f0f0f0</color>
     <!--主要的文字颜色，一般TextView的文字都是这个颜色-->
-    <color name="txtPrimary">#cc333333</color>
+    <color name="txtPrimary">#999</color>
     <!--辅助的文字颜色，一般比textColorPrimary的颜色弱一点，用于一些弱化的表示-->
-    <color name="txtSub">#cc999999</color>
+    <color name="txtSub">#999999</color>
     <color name="color_while">#ffffff</color>
 
 
@@ -35,7 +35,7 @@
     <color name="text_light">#a9a9a9</color>
     <color name="text_orange">#ff6600</color>
     <color name="default_line_bg">#f0f0f0</color>
-    <color name="text_normal">#333333</color>
+    <color name="text_normal">#999</color>
     <color name="default_blue">#0285CF</color>
 
 

@@ -5,7 +5,7 @@ apply plugin: 'com.jfrog.bintray'
 //-------------------------上传到jcenter-----------------------
 
 
-version = "1.0.3"
+version = "1.0.5"
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -14,7 +14,7 @@ android {
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
+        versionCode 1704181200
         versionName version
 
     }
@@ -37,7 +37,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.yidont:headtool:1.3'
+    compile 'com.yidont:headtool:1.3.1'
     compile 'com.yidont:fit:1.5.1'
     compile 'com.yidont:flux:1.0.3'
     compile 'me.yokeyword:fragmentation-swipeback:0.7.9'

@@ -2,6 +2,7 @@
 <resources>
     <color name="themecolors">#0085cf</color>
     <color name="colorPrimary">@color/themecolors</color>
+    <color name="textColorPrimary">@color/themecolors</color>
     <color name="colorPrimaryDark">@color/themecolors</color>
     <color name="colorAccent">#FF4081</color>
     <color name="bg_white">#ffffff</color>

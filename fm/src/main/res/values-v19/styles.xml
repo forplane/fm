@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="FmBaseTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- 对应标题栏 toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/txtPrimary</item>
+        <item name="android:textColorPrimary">@color/txtSub</item>
+        <item name="toolbarNavigationButtonStyle">@style/FmToolbarNavigationButtonStyle</item>
+        <item name="toolbarStyle">@style/clubToolbar</item>
+        <item name="android:actionOverflowButtonStyle">@null</item>
+
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="FmBaseTheme.ThemeActivity" parent="FmBaseTheme">
+        <!--主题色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--辅助色（或强调色）-->
+        <item name="colorAccent">@color/txtPrimary</item>
+        <!--主要的文字颜色，一般TextView的文字都是这个颜色-->
+        <item name="android:textColorTertiary">@color/txtPrimary</item>
+        <!--辅助的文字颜色，一般比textColorPrimary的颜色弱一点，用于一些弱化的表示-->
+        <item name="android:textColorSecondary">@color/txtSub</item>
+        <!--Window的背景色-->
+        <item name="android:windowBackground">@android:color/black</item>
+        <!--文本过长全部都是结尾省略-->
+        <item name="android:ellipsize">end</item>
+        <item name="android:windowIsTranslucent">false</item>
+
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/FmactivityAnimation</item>
+
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+    </style>
+
+
+
+
+</resources>
